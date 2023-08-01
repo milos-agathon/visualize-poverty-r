@@ -4,7 +4,7 @@
 #                 2023/07/25
 #########################################
 install.packages("remotes")
-remotes::github_install(
+remotes::install_github(
     "dickoa/rgeoboundaries"
 )
 libs <- c(
